@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "sass src/wordle.scss src/wordle.css",
+    "dev-server": "http-server src",
+    "dev-sass": "sass -w src/wordle.scss src/wordle.css",
     "dev": "npm run dev-server & npm run dev-sass",
+    "start": "echo \"No start script\" && exit 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
